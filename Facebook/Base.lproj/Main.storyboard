@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="hBK-bb-7vk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="181-2M-Tzl">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -262,8 +262,8 @@
                                 <frame key="frameInset"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="23E-cP-CGK">
-                                        <rect key="frame" x="0.0" y="58" width="320" height="466"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="23E-cP-CGK">
+                                        <rect key="frame" x="0.0" y="58" width="320" height="469"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <view contentMode="scaleAspectFill" misplaced="YES" id="bvH-y6-Ubc">
@@ -284,9 +284,9 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="photo_actions" id="rcP-Cb-hhb">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="photo_actions" id="6XM-YT-RfF">
                                         <rect key="frame" x="0.0" y="523" width="320" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -296,7 +296,7 @@
                     <connections>
                         <outlet property="doneButton" destination="8iQ-ac-bMY" id="k4i-R4-b32"/>
                         <outlet property="imageView" destination="23E-cP-CGK" id="Yh7-MF-7RT"/>
-                        <outlet property="photoAction" destination="rcP-Cb-hhb" id="D71-FR-war"/>
+                        <outlet property="photoAction" destination="6XM-YT-RfF" id="Yq1-ZP-XGv"/>
                         <outlet property="scrollView" destination="7BF-oj-Q6l" id="PA1-yd-Rce"/>
                     </connections>
                 </viewController>
@@ -331,7 +331,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thrillist_detail" id="0GD-8a-jff">
-                                        <rect key="frame" x="0.0" y="0.0" width="960" height="1236"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1280" height="1646"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <gestureRecognizers/>
                                     </imageView>

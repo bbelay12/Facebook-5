@@ -14,13 +14,14 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var photoAction: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
-    var image: UIImage!
     
+    var image: UIImage!
+    var lightboxTransition: LightboxTransition!
     
     var photoViewControllerImageViewOrginalCenter: CGPoint!
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = CGSize (width: 375, height: 612)
+        scrollView.contentSize = CGSize (width: 320, height: 612)
         
         scrollView.delegate = self
         imageView.image = image

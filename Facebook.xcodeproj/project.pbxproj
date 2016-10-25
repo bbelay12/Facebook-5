@@ -23,7 +23,7 @@
 		E21A5DC01DBF40510062F7F8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5DBF1DBF40510062F7F8 /* PhotoViewController.swift */; };
 		E21A5DC31DBF44150062F7F8 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5DC11DBF44150062F7F8 /* FadeTransition.swift */; };
 		E21A5DC41DBF44150062F7F8 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5DC21DBF44150062F7F8 /* BaseTransition.swift */; };
-		E21A5DC61DBF4B720062F7F8 /* lightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5DC51DBF4B720062F7F8 /* lightboxTransition.swift */; };
+		E21A5DC61DBF4B720062F7F8 /* LightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A5DC51DBF4B720062F7F8 /* LightboxTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		E21A5DBF1DBF40510062F7F8 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		E21A5DC11DBF44150062F7F8 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 		E21A5DC21DBF44150062F7F8 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
-		E21A5DC51DBF4B720062F7F8 /* lightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lightboxTransition.swift; sourceTree = "<group>"; };
+		E21A5DC51DBF4B720062F7F8 /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				42167679198ECE88008CCBC3 /* NewsFeedViewController.swift */,
-				E21A5DC51DBF4B720062F7F8 /* lightboxTransition.swift */,
+				E21A5DC51DBF4B720062F7F8 /* LightboxTransition.swift */,
 				42167677198ECE0E008CCBC3 /* RequestsViewController.swift */,
 				429277A1198F35B600E19641 /* MessagesViewController.swift */,
 				42167675198ECA7C008CCBC3 /* NotificationsViewController.swift */,
@@ -257,7 +257,7 @@
 				429277A0198F068E00E19641 /* StoryViewController.swift in Sources */,
 				429277A2198F35B600E19641 /* MessagesViewController.swift in Sources */,
 				42167676198ECA7C008CCBC3 /* NotificationsViewController.swift in Sources */,
-				E21A5DC61DBF4B720062F7F8 /* lightboxTransition.swift in Sources */,
+				E21A5DC61DBF4B720062F7F8 /* LightboxTransition.swift in Sources */,
 				42167656198E3220008CCBC3 /* AppDelegate.swift in Sources */,
 				429277A6198F392800E19641 /* CreatePhotoViewController.swift in Sources */,
 				429277A4198F391500E19641 /* CreateStatusViewController.swift in Sources */,
